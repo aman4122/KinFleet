@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VahanTrack - Vehicle Manager</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  
+  <nav id="navbar" class="navbar" style="display: none;">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <i data-lucide="car"></i>
+        <span>VahanTrack</span>
+      </div>
+      <div class="nav-links">
+        <a href="/" data-link>Dashboard</a>
+        <a href="/vehicles" data-link>Vehicles</a>
+        <a href="/contacts" data-link>Contacts</a>
+        <a href="/sos" data-link style="color: var(--color-danger); font-weight: 600;">SOS</a>
+      </div>
+      <div class="nav-user">
+        <button id="logout-btn" class="btn btn-outline btn-sm">Logout</button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="app-root">
+    <!-- View content is injected here by router -->
+  </main>
+
+  <script src="/js/api.js" type="module"></script>
+  <script src="/js/app.js" type="module"></script>
+  
+  <script>
+    // Initialize icons globally if not using modules
+    lucide.createIcons();
+  </script>
+</body>
+</html>

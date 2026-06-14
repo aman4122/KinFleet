@@ -1,0 +1,17 @@
+{
+  "name": "VahanTrack",
+  "short_name": "VahanTrack",
+  "description": "Complete vehicle lifecycle manager for Indian families",
+  "theme_color": "#4F46E5",
+  "background_color": "#0F172A",
+  "display": "standalone",
+  "start_url": "/",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

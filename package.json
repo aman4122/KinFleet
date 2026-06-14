@@ -1,0 +1,16 @@
+{
+  "name": "vahantrack",
+  "version": "1.0.0",
+  "description": "VahanTrack — Production-ready vehicle lifecycle management for the Indian automotive ecosystem",
+  "scripts": {
+    "dev": "npm run server",
+    "server": "cd server && npm run dev",
+    "install:all": "npm install && cd server && npm install"
+  },
+  "keywords": ["vehicle", "tracking", "india", "mern", "fleet-management"],
+  "author": "VahanTrack",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
